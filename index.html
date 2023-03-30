@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>wwwapas</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+
+    <body>
+        <div class="yellowHeadAndFoot"></div>
+        <div class="divCentral">
+            <header>
+                <h1>wwwapas</h1>
+                <nav>
+                    <div class="divButtonsNavbar"><a href="#Services" class="buttonsNavbar">Servicios</a></div>
+                    <div class="divButtonsNavbar"><a href="#Contact" class="buttonsNavbar">Contacto</a></div>
+                    <div class="divButtonsNavbar"><a href="#" class="buttonsNavbar">Login</a></div>
+                </nav>
+            </header>
+
+            <main>
+                <article class="article1">
+                    <section id="s1-1">
+                        <h2 id="h2Article1">somos <br><strong>wwwapas</strong></h2>
+                        <h3 id="h3Article1">social media managers | creadoras de contenido</h3>
+                        <p id="pArticle1">
+                            Nos encargamos de construir, gestionar y administrar la comunidad online de tu marca, empresa o negocio <strong>¡Creamos relaciones estables y duraderas con tus clientes!</strong>
+                        </p>
+                    </section>
+
+                    <section id="imageArticle1">
+                        <img src="resources/foto.png" alt="nosotras.png">
+                    </section>
+                </article>
+
+                <article id="Services" class="article2">
+                    <section id="s1-2">
+                        <div>
+                            <h3>¡Hola! Somos SOFI & JULIA,</h3>
+                            <p>
+                                las social media managers, las creadoras de contenido, las copywriters, las generadoras de leads, las
+                                diseñadoras, las estrategas en marketing digital, las potenciadoras de ventas, el posicionamiento de tu
+                                marca. <strong>¡Somos el complemento que necesitás para hacer crecer tu marca! ¡Somos wwwapas!</strong>
+                            </p>
+                        </div>
+
+                        <div id="s1-2-2">
+                            <h3>GESTIONAMOS TUS REDES SOCIALES</h3>
+                            <p>
+                                La transformación digital no es solo para grandes compañías, todas las empresas deben emprenderla cuanto
+                                antes y
+                                aquí es donde podemos asistirte. Armamos estrategias a medida para tu empresa, marca o producto.
+                                <strong>¡Aumentá tu presencia digital y generá nuevas ventas y contactos!</strong>
+                            </p>
+                        </div>
+                    </section>
+
+                    <section id="s2-2">
+                        <hr>
+                        <div id="s2-2-1">
+                            <img src="resources/img-servicios.png" alt="">
+
+                            <div id="s2-2-1-2">
+                                <h3>Servicios</h3>
+                                <ol>
+                                    <li>Análisis de perfil (Benchmarking)</li>
+                                    <li>Revisión y activación de canales</li>
+                                    <li>Gestión, creación y diseño de contenido</li>
+                                    <li>Repuestas a mensajes y consultas</li>
+                                    <li>Segmentación de promociones según el público objetivo de la pauta publicitaria</li>
+                                    <li>Diagramamos un calendario que se ajuste a los objetivos de la empresa</li>
+                                    <li id="li7"><strong>¡Empezamos a comunicar!</strong></li>
+                                </ol>
+                            </div>
+                        </div>
+                        <hr>
+                    </section>
+                </article>
+
+                <article id="Contact" class="article3">
+                    <section>
+                        <div class="contactWithYou">
+                            <h3 id="s1-3-h3-1">¿Querés que nos</h3>
+                            <br>
+                            <h3 id="s1-3-h3-2">contactemos con vos?</h3>
+                            <p>
+                                Envianos tu consulta >></p>
+                        </div>
+
+                        <div class="form">
+                            <form action="php/mail.php" method="post">
+                                <label for="name">Nombre <span>*</span>
+                                    <input type="text" name="name" id="textInput" required></label>
+
+                                <label for="mail">Email <span>*</span>
+                                    <input type="email" name="mail" id="mailInput" required></label>
+
+                                <label for="textArea">Mensaje <span>*</span>
+                                    <textarea name="textArea" id="textareaInput" minlength="5" maxlength="250" required ></textarea></label>
+
+                                <div id="buttons">
+                                    <input type="submit" id="send" value="Enviar consulta">
+
+                                    <input type="reset" id="reset" value="Borrar">
+                                </div>
+                            </form>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="socialMedia">
+                            <div id="wwwapasMedia">
+                                <span>redes<br>wwwapas</span>
+                            </div>
+                            <img src="resources/instagram-icon.png" alt="instagram">
+                            <img src="resources/dribbble-icon.png" alt="dribble">
+                            <img src="resources/linkedin-icon.png" alt="linkedin">
+                            <img src="resources/facebook-icon.png" alt="facebook">
+                        </div>
+                    </section>
+                </article>
+            </main>
+        </div>
+        
+        <footer class="yellowHeadAndFoot">
+            <div>
+                <h3>wwwapas</h3>
+                <a href="mailto: wwwapas_sm@mail.com">wwwapas_sm@mail.com</a>
+            </div>
+        </footer>
+    </body>
+</html>

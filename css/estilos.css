@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700&display=swap');
+
+/* CSS rules para roboto y Coiny
+font-family: 'Coiny', cursive;
+font-family: 'Roboto', sans-serif;
+*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a:link {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    text-decoration: none;
+    color: #444444;
+}
+
+a:visited {
+    color: #444444;
+}
+
+header {
+    height: 90px;
+    width: auto;
+}
+
+header h1 {
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 42pt;
+    width: fit-content;
+    display: inline;
+}
+
+header nav {
+    display: inline-flex;
+    justify-content: space-around;
+    float: right;
+    margin-top: 26px;
+    width: 50%;
+    height: 50px;
+}
+
+.divButtonsNavbar {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 285px;
+}
+
+.divButtonsNavbar:hover {
+    background-image: url(../resources/bg-buttons-navbar.svg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.buttonsNavbar {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+}
+
+.buttonsNavbar:hover {
+}
+
+/**/
+
+.divCentral {
+    max-width: 1920px;
+    padding: 5%;
+    padding-top: 30px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+
+.article1 {
+    display: inline-block;
+    width: 100%;
+    margin-top: 50px;
+}
+
+#s1-1 {
+    max-width: 640px;
+    display: inline-block;
+    margin-top: 48.01px;    
+}
+
+#h2Article1 {
+    width: fit-content;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 48pt;
+    line-height: 1;
+}
+
+#h2Article1 strong {
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 88pt;
+}
+
+#h3Article1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+    width: 598px;
+    background-color: #FCEE21;
+    margin-top: 15px;
+    text-align: center;
+}
+
+#pArticle1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    margin-top: 75px;
+}
+
+#pArticle1 strong{
+    font-weight: 700;
+}
+
+#imageArticle1 {
+    float: right;
+    width: fit-content;
+}
+
+#imageArticle1 img {
+    width: 700px;
+    height: auto;
+}
+
+.article2 {
+    margin-top: 50px;
+}
+
+#s1-2 {
+
+}
+
+#s1-2 div {
+    display: inline-block;
+    max-width: 640px;
+}
+
+#s1-2 div h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 26pt;
+    width: fit-content;
+    background-color: #FCEE21;
+}
+
+#s1-2 div p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21pt;
+    width: 690px;
+}
+
+#s1-2 div p strong {
+    font-weight: 700;
+}
+
+#s1-2-2 {
+    float: right;
+}
+
+#s2-2 {
+    margin-top: 50px;
+}
+
+#s2-2-1 {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#s2-2-1 img {
+    width: 640px;
+    height: auto;
+}
+
+#s2-2-1-2 {
+    float: right;
+}
+
+#s2-2-1-2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 41pt;
+}
+
+#s2-2-1-2 li{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24pt;
+    max-width: 600px;
+    margin-top: 1em;
+    margin-left: 35px;
+}
+
+#li7 {
+    background-color: #FCEE21;
+}
+
+.article3 {
+    margin-top: 50px;
+}
+
+.article3 h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 50pt;
+    background-color: black;
+    color: white;
+    padding-left: 2%;
+    line-height: 1;
+}
+
+#s1-3-h3-1 {
+    max-width: 571px;
+}
+
+#s1-3-h3-2 {
+    max-width: 735px;
+}
+
+.article3 {
+    margin-bottom: 50px;
+}
+
+.article3 p {
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 33pt;
+    background-color: #FCEE21;
+    max-width: 530px;
+    padding-left: 2%;
+    line-height: 1;
+}
+
+.contactWithYou {
+    display: inline-block;
+    width: 690px;    
+}
+
+.form {
+    display: inline-block;
+    float: right;
+    width: 590px;
+}
+
+.form form {
+    width: auto;
+}
+
+label {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20pt;
+    margin-bottom: 100px;
+}
+
+label span {
+    color: #C22B31;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#textInput, #mailInput, #textareaInput {
+    width: 590px;
+    height: 60px;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 20pt;
+}
+
+#textareaInput {
+    height: 200px;
+    resize: none;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#send, #reset {
+    display: inline-block;
+    margin-top: -10px;
+    padding: 10px 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 24pt;
+    background-color: black;
+    color: white;
+}
+
+.socialMedia{
+    display: flex;;
+    justify-content: space-evenly;
+    margin-top: 500px;
+}
+
+#wwwapasMedia{
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 25pt;
+    width: 160px;
+    color: #808080;
+}
+
+.socialMedia img {
+    width: 125px;
+}
+
+.yellowHeadAndFoot {
+    width: 1920px;
+    margin: auto;
+    padding: 5px 0;
+    height: auto;
+    min-height: 10px;
+    background-color: #FCEE21;
+}
+
+.yellowHeadAndFoot h3 {
+    font-family: 'Coiny', cursive;
+    font-weight: 400;
+    font-size: 33pt;
+    padding: 5%;
+    display: inline;
+}
+
+.yellowHeadAndFoot a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 21pt;
+}
